@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    background-image: url(" https://media.istockphoto.com/id/1257951336/photo/transparent-umbrella-under-rain-against-water-drops-splash-background-rainy-weather-concept.webp?a=1&b=1&s=612x612&w=0&k=20&c=sw_CRZcGopaGHDWqtT1M8y64k5uCcq-nro55Bw3YzyQ=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+  
+
+}
+.container{
+    background-color: rgba(255, 255, 255, .3);
+    padding: 20px;
+    border-radius: 10px;
+    width: 85%;
+    max-width: 450px;
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heading{
+    font-size: 38px;
+}
+.temp-container{
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.input{
+    width: 220px;
+    font-family: monospace;
+    padding: 5px;
+    float: right;
+    outline: none;
+    background-color: rgba(255, 255, 255, .3);
+    border-color: rgba(255, 255, 255, .5); 
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
